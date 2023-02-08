@@ -1,0 +1,50 @@
+{
+    "name": "angrymoustache/filament-habtm-field",
+    "description": "Test",
+    "keywords": [
+        "laravel",
+        "architect",
+        "admin",
+        "dashboard"
+    ],
+    "homepage": "https://github.com/angrymoustache/filament-habtm-field",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AngryMoustache",
+            "email": "mrclotion@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "AngryMoustache\\HabtmField\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "scripts": {
+
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AngryMoustache\\HabtmField\\HabtmFieldServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
